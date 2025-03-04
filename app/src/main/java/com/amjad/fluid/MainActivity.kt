@@ -26,29 +26,17 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.primary
                 ) {
-                    Box {
-                        CustomDripView(
-                            maxSpeed = 20f,
-                            starCountPerSecond = 3,
-                            animationDuration = 3000,
-                            dropText = "⚽"
-//                            dropImageResId = R.drawable.circle_shape
+                    CustomDripView(
+                        modifier = Modifier.fillMaxSize(),
+                        maxSpeed = 15f,
+                        starCountPerSecond = 10,
+                        animationDuration = 5000,
+                        dropText = "⚽",
+//                        dropImageResId = R.drawable.circle_shape,
+//                        maxImageSize = 20
+                    )
 
 
-
-//                            dropImageResId = R.drawable.circle_shape,
-
-                        )
-
-                        Button(   colors = ButtonDefaults.buttonColors(
-                            containerColor = Color.Blue,  // Button color
-                            contentColor = Color.White   ),
-                            onClick = { /* Handle button click */ },
-                            modifier = Modifier.align(Alignment.Center)
-                        ) {
-                            Text("Click Me")
-                        }
-                    }
                 }
             }
         }
