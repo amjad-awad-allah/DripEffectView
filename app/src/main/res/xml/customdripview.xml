@@ -1,0 +1,10 @@
+<com.amjad.fluid.CustomDripView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dripView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:dropText="★"
+    app:maxSize="15dp"
+    app:maxSpeed="15"
+    app:minSize="5dp"
+    app:minSpeed="5" />

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomDripView">
+        <attr name="minSize" format="dimension" />
+        <attr name="maxSize" format="dimension" />
+        <attr name="minSpeed" format="float" />
+        <attr name="maxSpeed" format="float" />
+        <attr name="dropText" format="string" />
+
+    </declare-styleable>
+    <attr name="dropType" format="enum">
+        <enum name="circle" value="0" />
+        <enum name="text" value="1" />
+        <enum name="image" value="2" />
+    </attr>
+</resources>
