@@ -25,7 +25,7 @@ import kotlinx.coroutines.delay
 import kotlin.random.Random
 
 @Composable
-fun CustomDripView(
+fun Dripeffectview(
     modifier: Modifier = Modifier,
     maxSpeed: Float = 15f,
     starCountPerSecond: Int = 10,
